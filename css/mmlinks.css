@@ -1,0 +1,300 @@
+#frazy-header {
+ display: flex; align-items: center; width: 60%; font-weight: bold; background: white; height: 30px; border-bottom: 0 !important; border: 1px solid #c3c4c7; margin-top: 2rem
+}
+
+.mm_va .my-color-field {
+	width: 9rem !important;
+    text-align: center !important;
+}
+
+.mm-outline {
+	outline: auto;
+}
+
+.mm_va .wp-picker-container {
+    display: flex;
+    flex-direction: column;
+}
+.mm_va .wp-picker-container {
+	align-items: center;
+}
+
+.mm_va .wp-picker-default {
+	display: none;
+}
+
+.mm_visible * {
+	opacity: 1;
+}
+
+#myInput {
+	margin-top: 1rem !important;
+}
+
+#mm_success {
+	position: absolute;
+	top: 50px;
+	left: 25%;
+	z-index: 9999999999999999;
+	background-color: limegreen;
+	width: 50%;
+	height: 50px;
+	border-radius: 15px;
+	transition: all 10s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+#mm_success2 {
+	position: absolute;
+	top: 50px;
+	left: 25%;
+	z-index: 9999999999999999;
+	background-color: limegreen;
+	width: 50%;
+	height: 50px;
+	border-radius: 15px;
+	transition: all 10s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+}
+
+#mm_success span {
+	display: flex;
+}
+
+input::-webkit-calendar-picker-indicator {
+	margin-top: -12px;
+}
+
+#tabela tr:nth-child(2) .iks {
+    border-top: 0 !important;
+}
+
+.iks:first-child {
+border-top: 0 !important;
+}
+
+.iks li button:before {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	font: normal 16px/20px dashicons;
+	content: "\f153";
+    speak: never;
+    height: 20px;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	color: #2271b1;
+}
+
+.iks {
+	text-align: center;
+	border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.iks .btn_d {
+	text-align: center;
+	display: initial;
+}
+
+.iks li {
+	margin-bottom: 0px !important;
+	list-style:none
+}
+
+.iks li:hover button:before {
+	color: #c70000;
+}
+
+#ilosc_losowan, #submit_losowania {
+	width: 35%;
+    text-align: center;
+}
+
+@media (max-width: 1150px) {
+	.mm-left-col {
+		float: left !important;
+		width: 92% !important;
+	}
+
+	.mm-right-col {
+		float: left !important;
+		width: 92% !important;
+	}
+}
+
+.mm-left-col {
+	float: left;
+	width: 45%;
+	background: white;
+    padding: 20px;
+    margin-top: 3rem;
+    border-radius: 10px;
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.mm-right-col {
+	float: right;
+	width: 45%;
+	background: white;
+    padding: 20px;
+    margin-top: 3rem;
+    border-radius: 10px;
+	margin-right: 1%;
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.mm-left-col h3, .mm-right-col h3 {
+	margin-top: 0 !important;
+}
+
+.mm-left-col .mm_va , .mm-right-col .mm_va {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+
+#frazy > div, #lista_fraz {
+	margin-left: auto !important;
+    margin-right: auto !important	
+}
+
+.mm_va input {
+	width: 60%;
+	margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.btn_d {
+	background: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 24px;
+    height: 24px;
+    border: none;
+    padding: 0;
+    background: 0 0;
+    cursor: pointer;
+    text-indent: 0;
+}
+
+#lista_fraz {
+	display: flex;
+	margin-top: 0;
+	background: white;
+    align-items: center;
+	min-height: 50px;
+	flex-wrap: wrap;
+	width: 60%;
+	border: 1px solid #c3c4c7;
+}
+
+#lista_fraz li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	margin-bottom: 0 !important;
+}
+
+#lista_fraz li button:before {
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	font: normal 16px/20px dashicons;
+	content: "\f153";
+    speak: never;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	color: #2271b1;
+}
+
+#lista_fraz li:hover button:before {
+	color: #c70000;
+}
+
+#frazy input {
+	display: inline-block;
+	margin-top: 1rem;
+	width: 60%;
+}
+
+#submit_frazy {
+	margin-top: 1.5rem;
+}
+
+#submit_losowania {
+	display:block;
+	margin-top: 1rem;
+}
+
+#tabela {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  width: 98%;
+}
+
+#tabela td, #tabela th {
+  border: 1px solid #d3d3d3;
+  padding: 8px;
+}
+
+#tabela tr{background-color: white;}
+
+#tabela tr:hover {background-color: #ddd;}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6e6e6e;
+  color: white;
+  text-align: center;
+}
+
+.btn-grad {
+	background-image: linear-gradient(to right, #24C6DC 0%, #514A9D  51%, #24C6DC  100%)
+}
+.btn-grad {
+	margin: 10px;
+	padding: 20px 45px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;            
+	box-shadow: 0 0 10px #000;
+	border-radius: 10px;
+	border: 0;
+	font-size:1rem;
+}
+
+.btn-grad:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.mm a {
+	text-decoration: none;
+	display: block;
+}

@@ -1,0 +1,142 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: SimpliLinks\n"
+"POT-Creation-Date: 2023-11-02 15:39+0100\n"
+"PO-Revision-Date: 2023-11-02 15:38+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: simplilinks.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: simplilinks.php:174
+msgid "Add links"
+msgstr ""
+
+#: simplilinks.php:175
+msgid "Link database"
+msgstr ""
+
+#: simplilinks.php:176
+msgid "Settings"
+msgstr ""
+
+#: simplilinks.php:222
+msgid "Select the post for which you want to add phrases"
+msgstr ""
+
+#: simplilinks.php:236
+msgid "Search"
+msgstr ""
+
+#: simplilinks.php:245
+msgid "No posts to display"
+msgstr ""
+
+#: simplilinks.php:250
+msgid "Select"
+msgstr ""
+
+#: simplilinks.php:268
+msgid "Create phrases for a post"
+msgstr ""
+
+#: simplilinks.php:269
+msgid "Type a phrase and press `ENTER`"
+msgstr ""
+
+#: simplilinks.php:270 simplilinks.php:327
+msgid "Phrase"
+msgstr ""
+
+#: simplilinks.php:274 simplilinks.php:462
+msgid "Save"
+msgstr ""
+
+#: simplilinks.php:278 simplilinks.php:291
+msgid "Successfully added phrases to the database"
+msgstr ""
+
+#: simplilinks.php:327
+msgid "Search.."
+msgstr ""
+
+#: simplilinks.php:327
+msgid "Link"
+msgstr ""
+
+#: simplilinks.php:327
+msgid "Delete"
+msgstr ""
+
+#: simplilinks.php:366
+msgid "Enter the number of random phrases that will be displayed"
+msgstr ""
+
+#: simplilinks.php:367
+msgid "Use shortcode to display phrases"
+msgstr ""
+
+#: simplilinks.php:369
+msgid "Number of draws"
+msgstr ""
+
+#: simplilinks.php:370
+msgid "Random"
+msgstr ""
+
+#: simplilinks.php:395
+msgid ""
+"Not enough phrases to complete the draw. Add more phrases to complete the "
+"draw or reduce the number of phrases drawn. The database of links and "
+"phrases drawn has been cleared"
+msgstr ""
+
+#: simplilinks.php:419
+msgid "Successfully drawn phrases for each entry"
+msgstr ""
+
+#: simplilinks.php:419
+msgid "Use shortcode to view them"
+msgstr ""
+
+#: simplilinks.php:434
+msgid "Settings saved successfully"
+msgstr ""
+
+#: simplilinks.php:443
+msgid "Choose the color of the links"
+msgstr ""
+
+#: simplilinks.php:447 simplilinks.php:451 simplilinks.php:457
+msgid "Select link orientation"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "SimpliLinks"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://github.com/MetaX5"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Internal linking plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Mateusz Minkiewicz"
+msgstr ""
